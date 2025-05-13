@@ -1,0 +1,8 @@
+fastapi[standard]
+pydantic
+pydantic-settings
+sqlmodel
+psycopg[binary]
+passlib[bcrypt]
+bcrypt==4.0.1  # Pin bcrypt until passlib supports the latest
+pyjwt
